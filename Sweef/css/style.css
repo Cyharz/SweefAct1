@@ -1,0 +1,91 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{ 
+     background: white;
+
+}
+
+header, footer {
+     width: 100%;                                 /* Ancho y ancho máximo*/
+     max-width: 2000px;
+}
+
+header article {
+     margin-left: 35%;                           /* Para central header*/
+}
+
+header article .img_nav { 
+     padding-top: 47px;                          /*Centra el logo en la página*/
+     float: left;                                /* Situa lo que esta abajo de un elemento al lado del mismo*/
+}
+
+header article .img_nav a img  {
+     width: 125px;                               /*Ancho del logo*/
+}
+
+header article nav {
+     background: white; 
+     overflow: hidden;                           /*El espacio en blanco que se genera entre un elemento y otro, este lo oculta*/
+     padding: 71.5px 110px 71.5px 110px;         /*para centrar la barra de navegación*/
+     display: inline-block;                      /* Convertir la barra de navegación en bloque*/     
+} 
+
+header article nav .buttom { 
+     font-family: Arial;
+     font-size: 11px;
+     text-decoration: none;
+     color: #000; 
+     padding: 8px;                                 /* El espacio que existe entre los 4 elementos del menú de navegación*/
+     border-radius: 10%; 
+} 
+
+header article nav a.buttom:hover {
+     background: #555555;
+     font-size: 11px;
+     text-decoration: none;
+     font-family: Arial;
+     color: #fff;
+}
+     
+header article nav .singup { 
+     font-family: Arial;
+     font-size: 11px;
+     text-decoration: none;
+     padding: 7px 10px 7px 10px ;
+     background-color: #E84965;
+     color: #fff; 
+     border-radius: 10%;                          /*Bordes redondeados*/
+} 
+
+header article nav .singup:hover {
+     font-family: Arial;
+     font-size: 11px;
+     text-decoration: none;
+     border-radius: 10%;
+     background-color: #ED6E85;
+     color: #fff;
+}
+
+footer {
+     background: #555555;
+     text-align: center;
+     margin-top: 350px;                            /*Nota: Modificar cuándo toque hacer el cuerpo de página (section)*/
+}
+
+footer .img_footer {
+     padding: 50px 0px 25px 0px ; 
+}
+
+footer .img_footer a img {
+     width: 135px;    
+}
+
+footer p {
+     color: #D8D8D7;
+     padding-bottom: 60px;
+     clear: both;
+     font-size: 12px;
+}
